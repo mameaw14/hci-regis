@@ -1,0 +1,13 @@
+.nav-link > * {
+    vertical-align: middle;
+}
+
+@media (min-width: 992px){
+    .navbar-nav > li:not(:last-child) {
+        border-right: 1px solid #eceeef !important;
+    }
+    .nav-item {
+        flex-grow: 1;
+        text-align: center;
+    }
+}
