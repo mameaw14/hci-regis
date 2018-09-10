@@ -1,144 +1,124 @@
 <html>
-    <header>
-        <link rel="stylesheet" href="./bootstrap.css">
-        <link rel="stylesheet" href="./sidebar.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="./style.css">
-    </header>
+<header>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./sidebar.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</header>
 
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        
-            <div class="collapse navbar-collapse" id="navbarColor01">
-                <ul class="navbar-nav w-100 justify-content-around">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html#">หน้าแรก <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./report.html#">รายงาน</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./regis.html#">ลงทะเบียน</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./schedule.html#">ตารางเรียน</a>
-                    </li>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./finance.html#">การเงินและหนี้สิน</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="material-icons">
-                                account_circle
-                            </i>
-                            <span>ฉัตรทิวา</span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">ข้อมูลนิสิต</a>
-                            <a class="dropdown-item" href="#">คู่มือใช้งาน</a>
-                            <a class="dropdown-item" href="#">ออกจากระบบ</a>
-                        </div>
-                    </li>
-                </ul>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav w-100 justify-content-around">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html#">หน้าแรก <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./report.html#">รายงาน</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./regis.html#">ลงทะเบียน</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./schedule.html#">ตารางเรียน</a>
+                </li>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./finance.html#">การเงินและหนี้สิน</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <i class="material-icons">
+                            account_circle
+                        </i>
+                        <span>ฉัตรทิวา</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="./info.html">ข้อมูลนิสิต</a>
+                        <a class="dropdown-item" href="#">คู่มือใช้งาน</a>
+                        <a class="dropdown-item" href="#">ออกจากระบบ</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 mt-4 ">
+                <div class="card border-primary">
+                <div class="card-body">
+                    <h5 class="card-title">ขั้นตอนการชำระหนี้ (เฉพาะค่าเล่าเรียน)</h5>
+                    <p class="card-text">1.นิสิตพิมพ์ใบแจ้งหนี้ โดยคลิกปุ่ม 'รายงาน' แล้วคลิกปุ่ม 'KU9: ใบแจ้งหนี้'</p>
+                    <p class="card-text">2.นำแบบฯ ไปชำระเงิน ณ ธนาคารที่ระบุในแบบ (ตรวจสอบผลการชำระเงินได้ในวันรุ่งขึ้น)</p>
+                    <p class="card-text">3.หากไม่มีหนี้สินใด ๆ ค้างอยู่ นิสิตจึงจะสามารถพิมพ์แบบใบแจ้งหนี้ (KU9)
+                        ของภาคการศึกษาปัจจุบันได้</p>
+
+                </div>
+                </div>
             </div>
-        </nav>
-
-        <div class="main sidebar">
-            <aside>
-              <div class="sidebar left ">
-                <ul class="list-sidebar bg-defoult">
-                    <li> <a href="#" data-toggle="collapse" data-target="#sidebar-one" class="collapsed active btn-primary" > <i class="fa fa-th-large"></i> <span class="nav-label"> ข้อควรรู้สำหรับนิสิต </span> <span class="fa fa-chevron-left pull-right"></span> </a>
-                        <ul class="sub-menu collapse btn-primary" id="sidebar-one">
-                            <li class="active"><a href="#">ประกาศข้อบังคับ</a></li>
-                            <li><a href="#">โครงการบัณฑิตยุคใหม่</a></li>
-                            <li><a href="#">การจัดการศึกษาและการเรียนการสอน</a></li>
-                            <li><a href="#">สารสนเทศผู้สำเร็จการศึกษาและภาวะการหางานทำ</a></li>
-                        </ul>
-                    </li>
-
-                    <li> <a href="#" data-toggle="collapse" data-target="#sidebar-two" class="collapsed active btn-primary" > <i class="fa fa-th-large"></i> <span class="nav-label"> ทุนการศึกษา </span> <span class="fa fa-chevron-left pull-right"></span> </a>
-                        <ul class="sub-menu collapse btn-primary" id="sidebar-two">
-                            <li class="active"><a href="#">กองทุนเงินให้กู้ยืมเพื่อการศึกษา</a></li>
-                            <li><a href="#">กองทุนสวัสดิภาพนิสิต</a></li>
-                        </ul>
-                    </li>
-
-                    <li> <a href="#" data-toggle="collapse" data-target="#sidebar-three" class="collapsed active btn-primary" > <i class="fa fa-th-large"></i> <span class="nav-label"> แหล่งความรู้ครบวงจร </span> <span class="fa fa-chevron-left pull-right"></span> </a>
-                        <ul class="sub-menu collapse btn-primary" id="sidebar-three">
-                            <li class="active"><a href="#">ห้องสมุดที่ทันสมัย</a></li>
-                            <li><a href="#">ศูนย์หนังสือมหาวิทยาลัยเกษตรศาสตร์</a></li>
-                            <li><a href="#">Kasetsart IT Square (KITS)</a></li>
-                            <li><a href="#">แหล่งฝึกฝนทักษะทางภาษา</a></li>
-                            <li><a href="#">หอประวัติ มก.</a></li>
-                            <li><a href="#">สถานีวิทยุ มก.</a></li>
-                            <li><a href="#">การให้บริการด้านอาหาร</a></li>
-                            <li><a href="#">การบริการรักษาสัตว์ครบวงจร</a></li>
-                            <li><a href="#">สภาพแวดล้อมในมหาวิทยาลัย</a></li>
-                            <li><a href="#">แหล่งท่องเที่ยวในมหาวิทยาลัย</a></li>
-                        </ul>
-                    </li>
-
-                    <li> <a href="#" data-toggle="collapse" data-target="#sidebar-four" class="collapsed active btn-primary" > <i class="fa fa-th-large"></i> <span class="nav-label"> หน่วยงานบริการนิสิต </span> <span class="fa fa-chevron-left pull-right"></span> </a>
-                        <ul class="sub-menu collapse btn-primary" id="sidebar-four">
-                            <li class="active"><a href="#">กองบริการการศึกษา</a></li>
-                            <li><a href="#">กองกิจการนิสิต</a></li>
-                            <li><a href="#">กองวิเทศสัมพันธ์</a></li>
-                            <li><a href="#">สำนักทะเบียนและประมวลผล</a></li>
-                            <li><a href="#">สำนักบริการคอมพิวเตอร์</a></li>
-                            <li><a href="#">สำนักหอสมุด</a></li>
-                            <li><a href="#">สำนักการกีฬา</a></li>
-                            <li><a href="#">บัณฑิตวิทยาลัย</a></li>
-                        </ul>
-                    </li>
-
-                    <li> <a href="#" data-toggle="collapse" data-target="#sidebar-four" class="collapsed active btn-primary" > <i class="fa fa-th-large"></i> <span class="nav-label"> หน่วยงานบริการนิสิต </span> <span class="fa fa-chevron-left pull-right"></span> </a>
-                        <ul class="sub-menu collapse btn-primary" id="sidebar-four">
-                            <li class="active"><a href="#">ชมรม/ชุมนุม นิสิต มก.</a></li>
-                            <li><a href="#">ศูนย์ประสานกิจกรรมนิสิต</a></li>
-                            <li><a href="#">เว็บเพจชมรม มก.</a></li>
-                        </ul>
-                    </li>
-
-                    <li> <a href="#" data-toggle="collapse" data-target="#sidebar-four" class="collapsed active btn-primary" > <i class="fa fa-th-large"></i> <span class="nav-label"> หน่วยงานบริการนิสิต </span> <span class="fa fa-chevron-left pull-right"></span> </a>
-                        <ul class="sub-menu collapse btn-primary" id="sidebar-four">
-                            <li class="active"><a href="#">บริการของมหาวิทยาลัย</a></li>
-                            <li><a href="#">เว็บเมล</a></li>
-                            <li><a href="#">บัญชีผู้ใช้เครือข่ายนนทรี</a></li>
-                            <li><a href="#">บัญชีผู้ใช้ส่วนบุคคล</a></li>
-                            <li><a href="#">บริการพื้นที่โฮมเพจ</a></li>
-                            <li><a href="#">บริการเครือข่าย</a></li>
-                            <li><a href="#">ห้องปฏิบัติการคอมพิวเตอร์</a></li>
-                            <li><a href="#">ให้คำปรึกษาแนะนำด้านคอมพิวเตอร์</a></li>
-                            <li><a href="#">บริการห้องสมุด</a></li>
-                            <li><a href="#">บริการ Edutainment</a></li>
-                            <li><a href="#">สถานีวิทยุ มก.</a></li>
-                        </ul>
-                    </li>
-
-                    <li> <a href="#" data-toggle="collapse" data-target="#sidebar-one" class="collapsed active btn-primary" > <i class="fa fa-th-large"></i> <span class="nav-label"> ข้อควรรู้สำหรับนิสิต </span> <span class="fa fa-chevron-left pull-right"></span> </a>
-                        <ul class="sub-menu collapse btn-primary" id="sidebar-one">
-                            <li class="active"><a href="#">หลักสูตรการศึกษา</a></li>
-                            <li><a href="#">ระบบสืบค้นข้อมูลหลักสูตร/รายวิชา</a></li>
-                            <li><a href="#">โครงสร้างหลักสูตรและคำอธิบายรายวิชาระดับปริญญาตรี</a></li>
-                            <li><a href="#">โครงสร้างหลักสูตรและคำอธิบายรายวิชาระดับบัณฑิตศึกษา</a></li>
-                        </ul>
-                    </li>
-                    
-                </ul>
+            <div class="col-8 mt-4">
+                <table class="table table-hover">
+                    <thead>
+                        <tr class="default" style="text-align:center;">
+                            <th colspan="6">รายการหนี้ค่าเล่าเรียน</th>
+                        </tr>
+                        <tr class="default" style="text-align:center;">
+                            <th scope="row">ลำดับที่</th>
+                            <th scope="row">ปีการศึกษา</th>
+                            <th scope="row">ภาคการศึกษา</th>
+                            <th scope="row">จำนวน(บาท/รายการ)</th>
+                            <th scope="row">จำนวน(ที่เป็นหนี้)</th>
+                            <th scope="row">คลิก</th>
+                        </tr>
+                    </thead>
+                </table>
             </div>
-        </aside>
         </div>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
-            crossorigin="anonymous"></script>
-    </body>
+        <div class="row">
+            <div class="col-2 mt-4 ">
+                <div class="card border-primary">
+                <div class="card-body">
+                    <h5 class="card-title">ขั้นตอนการปลดหนี้สิน</h5>
+                    <p class="card-text">1.นิสิตต้องติดต่อหน่วยงาน เพื่อทำการปลดล็อค</p>
+                    <p class="card-text">2.หากไม่มีหนี้สินใด ๆ ค้างอยู่ นิสิตจึงจะสามารถพิมพ์แบบใบแจ้งหนี้ (KU9)
+                        ของภาคการศึกษาปัจจุบันได้</p>
+
+                </div>
+                </div>
+            </div>
+            <div class="col-8 mt-4">
+                <table class="table table-hover">
+                    <thead>
+                        <tr class="default" style="text-align:center;">
+                            <th colspan="4">รายการหนี้สินต่างๆ</th>
+                        </tr>
+                        <tr class="default" style="text-align:center;">
+                            <th scope="row">ลำดับที่</th>
+                            <th scope="row">รายการ</th>
+                            <th scope="row">จำนวน(บาท/รายการ)</th>
+                            <th scope="row">หมายเหตุ</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

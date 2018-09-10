@@ -1,10 +1,24 @@
 /***    left menu ****/
-.sidebar{ width:200px;  
+.sidebar{ width:16vw;  
+    padding-left: 0px;
+    font-family: "Kanit";
     /* background-color:#000; */
     transition: all 0.5s  ease-in-out; }
 /* .bg-defoult{background-color:#222;} */
-.sidebar ul{ list-style:none; margin:0px; padding:0px; }
-.sidebar li a,.sidebar li a.collapsed.active{ display:block; padding:8px 12px; color:#fff;border-left:0px solid #dedede;  text-decoration:none}
+.sidebar ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar li a,.sidebar li a.collapsed.active{ 
+    display:block; 
+    padding:8px 12px; 
+    /* font-size: small; */
+    color:#fff;
+    border-left:0px 
+    solid #dedede;  
+    text-decoration:none;
+}
 .sidebar li a.active{
     /* background-color:#78C2AD; */
     border-left:5px solid #dedede; transition: all 0.5s  ease-in-out}
@@ -12,8 +26,7 @@
 .sidebar li a i{ padding-right:5px;}
 .sidebar ul li .sub-menu li a{ position:relative}
 .sidebar ul li .sub-menu li a:before{
-    font-family: FontAwesome;
-    content: "\f105";
+    content: "\>";
     display: inline-block;
     padding-left: 0px;
     padding-right: 10px;
@@ -29,9 +42,12 @@
     height: 100%;
 }
 .sidebar ul li .sub-menu li a:hover{ 
-    /* background-color:#222;  */
+    background-color:#77d8bb; 
     padding-left:20px; transition: all 0.5s  ease-in-out}
 .sub-menu{ border-left:5px solid #dedede; font-size: small}
+.sub-menu-lg {
+    font-size: 15px;
+}
 	.sidebar li a .nav-label,.sidebar li a .nav-label+span{ transition: all 0.5s  ease-in-out}
 	
 

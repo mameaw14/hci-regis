@@ -11,3 +11,10 @@
         text-align: center;
     }
 }
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
+.material-icons.md-72 {
+    font-size: 108px;
+}
