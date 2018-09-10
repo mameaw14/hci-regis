@@ -42,7 +42,7 @@
     height: 100%;
 }
 .sidebar ul li .sub-menu li a:hover{ 
-    background-color:#77d8bb; 
+    background-color:#F3969A;
     padding-left:20px; transition: all 0.5s  ease-in-out}
 .sub-menu{ border-left:5px solid #dedede; font-size: small}
 .sub-menu-lg {
